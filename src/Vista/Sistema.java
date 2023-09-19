@@ -134,6 +134,7 @@ public class Sistema extends javax.swing.JFrame {
         jTextField26 = new javax.swing.JTextField();
         jButton23 = new javax.swing.JButton();
         jLabel32 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -962,6 +963,9 @@ public class Sistema extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("tab6", jPanel7);
 
+        jLabel11.setText("jLabel11");
+        jTabbedPane1.addTab("tab7", jLabel11);
+
         getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, 910, 480));
 
         pack();
@@ -973,6 +977,7 @@ public class Sistema extends javax.swing.JFrame {
 
     private void txtPrecioVentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPrecioVentaActionPerformed
         // TODO add your handling code here:
+        int hola = 0;
     }//GEN-LAST:event_txtPrecioVentaActionPerformed
 
     private void txtTelefonoClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTelefonoClienteActionPerformed
@@ -1070,6 +1075,7 @@ public class Sistema extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
