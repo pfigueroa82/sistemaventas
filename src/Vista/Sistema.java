@@ -134,7 +134,6 @@ public class Sistema extends javax.swing.JFrame {
         jTextField26 = new javax.swing.JTextField();
         jButton23 = new javax.swing.JButton();
         jLabel32 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -963,50 +962,47 @@ public class Sistema extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("tab6", jPanel7);
 
-        jLabel11.setText("jLabel11");
-        jTabbedPane1.addTab("tab7", jLabel11);
-
         getContentPane().add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, 910, 480));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnEliminarVentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarVentaActionPerformed
+    private void jTextField25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField25ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnEliminarVentaActionPerformed
+    }//GEN-LAST:event_jTextField25ActionPerformed
+
+    private void txtIdProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdProdActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtIdProdActionPerformed
+
+    private void txtCantidadProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCantidadProdActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCantidadProdActionPerformed
+
+    private void txtDireccionProveedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDireccionProveedorActionPerformed
+
+    }//GEN-LAST:event_txtDireccionProveedorActionPerformed
+
+    private void txtTelefonoProveedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTelefonoProveedorActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtTelefonoProveedorActionPerformed
+
+    private void txtTelefonoClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTelefonoClienteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtTelefonoClienteActionPerformed
+
+    private void txtRazonCVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRazonCVActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtRazonCVActionPerformed
 
     private void txtPrecioVentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPrecioVentaActionPerformed
         // TODO add your handling code here:
         int hola = 0;
     }//GEN-LAST:event_txtPrecioVentaActionPerformed
 
-    private void txtTelefonoClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTelefonoClienteActionPerformed
+    private void btnEliminarVentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarVentaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtTelefonoClienteActionPerformed
-
-    private void txtTelefonoProveedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTelefonoProveedorActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtTelefonoProveedorActionPerformed
-
-    private void txtDireccionProveedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDireccionProveedorActionPerformed
-
-    }//GEN-LAST:event_txtDireccionProveedorActionPerformed
-
-    private void txtCantidadProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCantidadProdActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCantidadProdActionPerformed
-
-    private void jTextField25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField25ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField25ActionPerformed
-
-    private void txtRazonCVActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtRazonCVActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtRazonCVActionPerformed
-
-    private void txtIdProdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdProdActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtIdProdActionPerformed
+    }//GEN-LAST:event_btnEliminarVentaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1075,7 +1071,6 @@ public class Sistema extends javax.swing.JFrame {
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
